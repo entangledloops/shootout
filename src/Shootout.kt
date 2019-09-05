@@ -4,7 +4,7 @@ import kotlin.collections.ArrayList
 fun main() {
     val rand = Random(0)
     println("n, p")
-    for (i in 3..10000) {
+    for (i in 1..10000) {
         var avg = 0.0
         var count = 0.0
         for (run in 1..10000) {
